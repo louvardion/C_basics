@@ -17,3 +17,4 @@ float calAreaCirc(float r);
 float calAreaTrap(float b, float B, float h);
 
 float calAreaLosa(float D, float d);
+

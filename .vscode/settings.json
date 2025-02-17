@@ -1,7 +1,8 @@
 {
     "files.associations": {
         "HelloWorld.C": "cpp",
-        "variablesreading": "cpp"
+        "variablesreading": "cpp",
+        "poligonos.h": "c"
     },
     "C_Cpp.errorSquiggles": "disabled"
 }

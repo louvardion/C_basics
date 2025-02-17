@@ -1,22 +1,22 @@
 #include "Poligonos.h"
 
-float calcPeriRect(float a, float b){
+float calPeriRect(float a, float b){
       
-      p = 2 * (a + b);
+      float p = 2 * (a + b);
       
       return p;
       }
       
 float calPeriTrian(float a, float b, float c){
       
-      p = a + b + c;
+      float p = a + b + c;
       
       return p;
       }
 
 float calPeriQuadr(float a){
       
-      p = a * 4;
+      float p = a * 4;
       
       return p;
       
@@ -24,7 +24,7 @@ float calPeriQuadr(float a){
 
 float calAreaRect(float b, float h){
       
-      A = b * h;
+      float A = b * h;
       
       return A;
       
@@ -32,7 +32,7 @@ float calAreaRect(float b, float h){
 
 float calAreaTrian(float b, float h){
       
-      A = (b * h)/2;
+      float A = (b * h)/2;
       
       return A;
       
@@ -40,7 +40,7 @@ float calAreaTrian(float b, float h){
 
 float calAreaQuadr(float a){
       
-      A = a * a; 
+      float A = a * a; 
       
       return A;
       
@@ -48,23 +48,23 @@ float calAreaQuadr(float a){
 
 float calAreaCirc(float r){
       
-      A = PI * (r * r);
+      float A = PI * (r * r);
       
       return A;
       
       }
 
-float calAreaTrap(float b, float B, float h)
+float calAreaTrap(float b, float B, float h){
 
-      A = ((b + B) * h) / 2;
+      float A = ((b + B) * h) / 2;
       
       return A;
       
       }
 
-float calAreaLosa(float D, float d);
+float calAreaLosa(float D, float d){
       
-      A = (d * D) / 2;
+      float A = (d * D) / 2;
       
       return A;
       
