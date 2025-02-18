@@ -4,18 +4,16 @@
 void cleanBuffer(){
 	
 	while (getchar() != '\n');
-	
-	return 0;
 }
 
-float medianOfNumbers(float a[b]){
+float medianOfNumbers(float a[], int b){
 	
-	float sumResult;
-	float meadian;
+	float sumResult = 0;
+	float median;
 	
 	for (int i = 0; i < b; i++){
 		
-		sumResult = a[i] + (a[i] + 1);	
+		sumResult += a[i];	
 	
 	}
 	

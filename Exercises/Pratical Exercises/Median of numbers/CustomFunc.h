@@ -1,5 +1,5 @@
 void cleanBuffer();
 
-float medianOfNumbers(float a[b]);
+float medianOfNumbers(float a[], int b);
 
 
